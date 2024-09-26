@@ -1,4 +1,4 @@
-const info=[
+export const info=[
   {
     "name": "Afghanistan",
     "topLevelDomain": [".af"],

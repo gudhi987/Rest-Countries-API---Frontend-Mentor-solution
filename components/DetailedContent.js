@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom"
 import leftArrow from "../design/left-arrow.svg";
 import { Link } from "react-router-dom";
+import { info } from "../data";
 
 export default function DetailedContent()
 {

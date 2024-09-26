@@ -6,6 +6,8 @@ import AppLayout from "./components/AppLayout";
 import Content from "./components/Content";
 import DetailedContent from "./components/DetailedContent";
 
+import { info } from "./data";
+
 const root=ReactDOM.createRoot(document.querySelector("#root"));
 // root.render(<App />);
 

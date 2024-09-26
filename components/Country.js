@@ -1,3 +1,4 @@
+import { info } from "../data";
 export default function Country(props)
 {
     const country=props.country;

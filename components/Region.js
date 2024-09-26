@@ -1,3 +1,4 @@
+import { info } from "../data";
 export default function Region(props)
 {
     let filteredList=info;

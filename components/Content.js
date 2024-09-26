@@ -4,6 +4,7 @@ import searchButtonImg from "../design/search-button.png";
 import downArrow from "../design/down-arrow.svg";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { info } from "../data";
 
 
 export default function Content()

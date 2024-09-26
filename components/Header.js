@@ -1,6 +1,7 @@
 import crescentMoon from "../design/crescent-moon.png";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { info } from "../data";
 export default function Header()
 {
     function onClickHandler() 
