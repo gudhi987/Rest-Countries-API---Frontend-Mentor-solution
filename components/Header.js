@@ -38,9 +38,9 @@ export default function Header()
     return (
     <>
         <header>
-            <Link to={"/"}>
+            <a href="/">
                 <h3>Where in the world?</h3>
-            </Link>
+            </a>
             <div className="theme-selector" tabIndex={0} onClick={onClickHandler} onKeyDown={keyDownHandler}>
                 {/* <img src={crescentMoon} alt=""></img> */}
                 <svg height="800px" width="800px" version="1.1" id="Capa_1" viewBox="0 0 47.539 47.539" xmlSpace="preserve" fill="#ffffff" stroke="#ffffff">

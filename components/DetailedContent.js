@@ -68,7 +68,9 @@ export default function DetailedContent()
                                 {
                                     borders.map(border => <button className="border" type="">
                                             <p>
-                                                {info.filter(country => country.alpha3Code===border)[0].name}
+                                                <Link to={`/country/${info.filter(country => country.alpha3Code===border)[0].name}`}>
+                                                    {info.filter(country => country.alpha3Code===border)[0].name}
+                                                </Link>
                                             </p>
                                         </button>
                                     )
