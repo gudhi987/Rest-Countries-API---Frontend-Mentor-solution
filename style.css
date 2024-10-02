@@ -261,6 +261,12 @@ a {
     width: 10%;
     max-height: 1rem;
     fill: var(--fill-color);
+
+    transition: transform ease 200ms;
+}
+
+.rotate-element {
+    transform: rotate(180deg);
 }
 
 .region-wrapper {
@@ -269,13 +275,20 @@ a {
     left: 0;
     top: 50px;
 
-    padding: 1rem;
+    padding-block: 0.5rem;
     width: 100%;
     border-radius: 3px;
     display: grid;
-    row-gap: 1rem;
     background-color: var(--light-mode-elements);
     box-shadow: 0 0 10px var(--box-shadow-elements);
+}
+
+.region {
+    padding: 0.5rem 1rem;
+}
+
+.region:hover {
+    background-color: var(--light-mode-background);
 }
 
 .content-wrapper {
